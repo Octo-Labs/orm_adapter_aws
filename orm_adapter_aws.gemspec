@@ -16,4 +16,9 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_dependency "aws-sdk", "~> 1.8.0"
+  gem.add_dependency "orm_adapter", "~> 0.4.0"
+  gem.add_development_dependency "rspec", ">= 2.0.0"
+
 end
