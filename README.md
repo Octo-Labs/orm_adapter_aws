@@ -1,6 +1,6 @@
 # OrmAdapterAws
 
-TODO: Write a gem description
+A SimpleDB (vida AWS::Record::Model) adapter for the orm_adapter gem.
 
 ## Installation
 
@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem was created as a mean of using Devise with SimpleDB.  Please
+see _article coming soon about how to use this gem with devise_.
+
+## Thanks
+
+Development of this gem was generously sponsored by _company name
+withheld pending approval from the legal department_.
+
+## Testing
+
+This gem relies on the `example_app_shared` set of examples from
+`orm_adapter`.  Those examples test some functionality that is not
+supplied by SimpleDB, so those tests are failing.  Be aware of then
+when running the specs.  Again, *some test failures are expected*. 
+
+```bash
+$ rspec spec
+```
 
 ## Contributing
 
