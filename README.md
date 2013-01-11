@@ -18,8 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-This gem was created as a mean of using Devise with SimpleDB.  Please
-see _article coming soon about how to use this gem with devise_.
+This gem was created as a means of using Devise with SimpleDB.  Please see _article coming soon about how to use this gem with devise_.
 
 ## Thanks
 
@@ -31,7 +30,8 @@ withheld pending approval from the legal department_.
 This gem relies on the `example_app_shared` set of examples from
 `orm_adapter`.  Those examples test some functionality that is not
 supplied by SimpleDB, so those tests are failing.  Be aware of then
-when running the specs.  Again, *some test failures are expected*. 
+when running the specs.  Again, *some test failures are expected*. See
+`spec/spec_helper.rb` for a list of specs that are expedted to fail.
 
 ```bash
 $ rspec spec
