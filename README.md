@@ -29,9 +29,11 @@ withheld pending approval from the legal department_.
 
 This gem relies on the `example_app_shared` set of examples from
 `orm_adapter`.  Those examples test some functionality that is not
-supplied by SimpleDB, so those tests are failing.  Be aware of then
+supplied by SimpleDB, so those tests are failing.  Be aware of this
 when running the specs.  Again, *some test failures are expected*. See
 `spec/spec_helper.rb` for a list of specs that are expedted to fail.
+
+Run the tests with : 
 
 ```bash
 $ rspec spec
