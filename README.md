@@ -1,6 +1,6 @@
 # OrmAdapterAws
 
-A SimpleDB (vida AWS::Record::Model) adapter for the orm_adapter gem.
+A SimpleDB (via AWS::Record::Model) adapter for the orm_adapter gem.
 
 ## Installation
 
