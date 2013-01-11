@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = OrmAdapterAws::VERSION
   gem.authors       = ["Jeremy Green"]
   gem.email         = ["jeremy@octolabs.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A SimpleDB adapter for the orm_adapter gem.}
+  gem.summary       = %q{A SimpleDB adapter for the orm_adapter gem.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
