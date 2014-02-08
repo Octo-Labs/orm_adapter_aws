@@ -2,6 +2,10 @@
 
 A SimpleDB (via AWS::Record::Model) adapter for the orm_adapter gem.
 
+
+[![Gem Version](https://badge.fury.io/rb/orm_adapter_aws.png)](http://badge.fury.io/rb/orm_adapter_aws)
+[![Code Climate](https://codeclimate.com/repos/52f5dd11e30ba05c5200820a/badges/01e7c4925a3dcf8c01cd/gpa.png)](https://codeclimate.com/repos/52f5dd11e30ba05c5200820a/feed)
+
 ## Installation
 
 Add this line to your application's Gemfile:
